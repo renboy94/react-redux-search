@@ -13,7 +13,7 @@ function* getMovies(action) {
   } catch (e) {
     yield put(
       actions.moviesError({
-        error: "An error occured when trying to get the users"
+        error: "An error occured when trying to get the movies"
       })
     );
   }
